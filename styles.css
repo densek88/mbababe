@@ -1,0 +1,62 @@
+/* styles.css */
+body {
+    font-family: "Concert One", sans-serif;
+    background-color: #f850ae;
+}
+.mbappe{
+    margin-right: 300px;
+}
+
+@media only screen and (max-width: 480px) {
+    /* Your specific mobile styles for smaller screens here */
+    .mbappe{
+        margin-right: auto;
+    }
+    .scroll-slide-img img {
+        width: 100px !important;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* Your mobile styles here */
+    .mbappe{
+        margin-right: auto;
+    }
+    .scroll-slide-img img {
+        width: 100px !important;
+        
+    }
+  }
+  /* Styles for the slider */
+
+  .scroll-slide-img {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    transition: transform 0.5s ease;
+    z-index: 999;
+}
+
+/* Additional CSS to adjust the position of the image */
+.scroll-slide-img img {
+    width: 200px; /* Adjust size as needed */
+    height: auto;
+}
+
+.mbp{
+    height: 600px !important;
+}
+.image-after-text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px; /* Adjust spacing between text and image */
+}
+.kiss{
+    margin-left: -20px;
+    margin-top: -10px;
+}
+
+.social {
+    width: 10px;
+    height: auto;
+}
